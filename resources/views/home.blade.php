@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-    </nav>
+<x-layout> <!-- Components always start with x to ensure they are unique and don't interfer with unique html tags -->
     <h1>Hello from the Home Page.</h1>
-</body>
-</html>
+</x-layout>
