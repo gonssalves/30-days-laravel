@@ -1,3 +1,6 @@
-<x-layout> <!-- Components always start with x to ensure they are unique and don't interfer with unique html tags -->
+<x-layout>
+    <x-slot:heading>
+        Contact Page
+    </x-slot:heading> 
     <h1>Hello from the Contact Page.</h1>
 </x-layout>
